@@ -4,7 +4,7 @@
   "description": "Learn.co's introduction to looping in JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json  --timeout=5000"
   },
   "repository": {
     "type": "git",
@@ -31,9 +31,9 @@
     "@babel/preset-env": "^7.7.6",
     "chai": "^4.2.0",
     "file-system": "^2.2.2",
-    "jsdom": "^9.0",
-    "mocha": "^5.2.0",
-    "mocha-jsdom": "~1.1.0",
+    "jsdom": "^15.2.1",
+    "mocha": "^6.2.2",
+    "mocha-jsdom": "^2.0.0",
     "mocha-multi": "^1.1.3",
     "sinon": "^7.5.0"
   }
